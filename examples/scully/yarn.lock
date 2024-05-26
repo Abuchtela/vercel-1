@@ -926,19 +926,16 @@
     semver "6.3.0"
     semver-intersect "1.4.0"
 
-"@scullyio/init@0.0.9":
-  version "0.0.9"
-  resolved "https://registry.yarnpkg.com/@scullyio/init/-/init-0.0.9.tgz#410c0e35d2c38f4e98b85c198945151b74ee242e"
-  integrity sha512-G1pnVkrNiN2dTrIlKw0wMF0w9w0DOchvHpuM8iHXR1boMFztti+vLicyLJ8hupc+e79GF4XogWHyRq76bvbKnQ==
+"@scullyio/init@0.0.10":
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/@scullyio/init/-/init-0.0.10.tgz#52e38843cfee59f78358a07f81e2d8f51bc2f620"
+  integrity sha512-mKkYxKI3xznvugsw1FdKvv1PCo8hEkJnP6hHKFXYe3VfA7fRcFSRpS80PbbO2OX3/HvnMkjatZGfh6eg2sMHwg==
   dependencies:
     "@angular-devkit/core" "^9.0.0-rc.5"
     "@angular-devkit/schematics" "^9.0.0-rc.5"
     "@schematics/angular" "^9.0.0-rc.5"
-    "@types/jasmine" "^3.3.9"
-    "@types/node" "^8.0.31"
-    jasmine "^3.3.1"
+    js-yaml "^3.13.1"
     schematics-utilities "^2.0.0"
-    typescript "~3.5.3"
 
 "@scullyio/ng-lib@latest":
   version "0.0.8"
@@ -986,7 +983,7 @@
     "@types/minimatch" "*"
     "@types/node" "*"
 
-"@types/jasmine@*", "@types/jasmine@^3.3.9", "@types/jasmine@~3.5.0":
+"@types/jasmine@*", "@types/jasmine@~3.5.0":
   version "3.5.0"
   resolved "https://registry.yarnpkg.com/@types/jasmine/-/jasmine-3.5.0.tgz#2ad2006c8a937d20df20a8fee86071d0f730ef99"
   integrity sha512-kGCRI9oiCxFS6soGKlyzhMzDydfcPix9PpTkr7h11huxOxhWwP37Tg7DYBaQ18eQTNreZEuLkhpbGSqVNZPnnw==
@@ -1026,11 +1023,6 @@
   version "12.12.24"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-12.12.24.tgz#d4606afd8cf6c609036b854360367d1b2c78931f"
   integrity sha512-1Ciqv9pqwVtW6FsIUKSZNB82E5Cu1I2bBTj1xuIHXLe/1zYLl3956Nbhg2MzSYHVfl9/rmanjbQIb7LibfCnug==
-
-"@types/node@^8.0.31":
-  version "8.10.59"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-8.10.59.tgz#9e34261f30183f9777017a13d185dfac6b899e04"
-  integrity sha512-8RkBivJrDCyPpBXhVZcjh7cQxVBSmRk9QM7hOketZzp6Tg79c0N8kkpAIito9bnJ3HCVCHVYz+KHTEbfQNfeVQ==
 
 "@types/object-path@0.11.0":
   version "0.11.0"
@@ -4694,14 +4686,6 @@ jasmine@2.8.0:
     glob "^7.0.6"
     jasmine-core "~2.8.0"
 
-jasmine@^3.3.1:
-  version "3.5.0"
-  resolved "https://registry.yarnpkg.com/jasmine/-/jasmine-3.5.0.tgz#7101eabfd043a1fc82ac24e0ab6ec56081357f9e"
-  integrity sha512-DYypSryORqzsGoMazemIHUfMkXM7I7easFaxAvNM3Mr6Xz3Fy36TupTrAOxZWN8MVKEU5xECv22J4tUQf3uBzQ==
-  dependencies:
-    glob "^7.1.4"
-    jasmine-core "~3.5.0"
-
 jasminewd2@^2.1.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/jasminewd2/-/jasminewd2-2.2.0.tgz#e37cf0b17f199cce23bea71b2039395246b4ec4e"
@@ -8017,11 +8001,6 @@ typescript@^3.6.3:
   version "3.7.4"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.7.4.tgz#1743a5ec5fef6a1fa9f3e4708e33c81c73876c19"
   integrity sha512-A25xv5XCtarLwXpcDNZzCGvW2D1S3/bACratYBx2sax8PefsFhlYmkQicKHvpYflFS8if4zne5zT5kpJ7pzuvw==
-
-typescript@~3.5.3:
-  version "3.5.3"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.5.3.tgz#c830f657f93f1ea846819e929092f5fe5983e977"
-  integrity sha512-ACzBtm/PhXBDId6a6sDJfroT2pOWt/oOnk4/dElG5G33ZL776N3Y6/6bKZJBFpd+b05F3Ct9qDjMeJmRWtE2/g==
 
 uglify-js@^3.1.4:
   version "3.7.4"
