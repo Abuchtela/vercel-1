@@ -986,10 +986,10 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
-"@blitzjs/generator@2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@blitzjs/generator/-/generator-2.0.0.tgz#b664ad169a948c9e873a2983b1ac8fa737048cc3"
-  integrity sha512-rEt0630puSNhBzGjA0mZXl2UqjaRHolQfDtyKeq3vrK6+bJOLpHE8DC8JqtLO5ue14uqi+JGtBxatnqxgLJh8Q==
+"@blitzjs/generator@2.1.3":
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/@blitzjs/generator/-/generator-2.1.3.tgz#83218f379ff03c7f8134addc697c5648fbacd15b"
+  integrity sha512-PStteR02V/Sd6FalmYy6tS6IB1grfcAPLlirJqURC3TSY3z9AIwvvhq0baelehJT0++Cq+1anksVmu1wDkgN0w==
   dependencies:
     "@babel/core" "7.12.10"
     "@babel/plugin-transform-typescript" "7.12.1"
@@ -1017,7 +1017,7 @@
     tslog "4.9.0"
     username "5.1.0"
     vinyl "2.2.1"
-    zod "3.20.2"
+    zod "3.23.8"
 
 "@chevrotain/types@^9.1.0":
   version "9.1.0"
@@ -1075,13 +1075,6 @@
   dependencies:
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
-
-"@mrleebo/prisma-ast@0.2.6":
-  version "0.2.6"
-  resolved "https://registry.yarnpkg.com/@mrleebo/prisma-ast/-/prisma-ast-0.2.6.tgz#654129c51fd0bcde4ab9be687e373bf8c3dd5a59"
-  integrity sha512-Df0gAGmws3sxNMmLviTarBL9znf84QVlVhlx4EPgArrnaVBy8tNQZAI9aSTJHzH0JGj9BVGa0Qz1g3hPt12Kxw==
-  dependencies:
-    chevrotain "^9.0.1"
 
 "@mrleebo/prisma-ast@0.4.1":
   version "0.4.1"
@@ -1589,13 +1582,13 @@ bl@^4.0.3:
     inherits "^2.0.4"
     readable-stream "^3.4.0"
 
-blitz@2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/blitz/-/blitz-2.0.0.tgz#b52025ce578e689d3525a686a96ccb19de05dd45"
-  integrity sha512-Ikmkh9XQp3MxZ5JI0li2HPYj6gN9Cm7p8Qm8Hc3gWXSs6vW/tOtMXhDolcXN2JuLJS42W2JXDG7pc8px0cDbDA==
+blitz@2.1.3:
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/blitz/-/blitz-2.1.3.tgz#776373db0a134a942b55ebb04a0f078d5590cc8b"
+  integrity sha512-oJEdrcPudDKRlHZ9aAral/DBtsCvQMwlcJR/vzYbNK25XzIhuXeybDLq1UNMnnx05nd5IdELdFGhNhKjroTYww==
   dependencies:
-    "@blitzjs/generator" "2.0.0"
-    "@mrleebo/prisma-ast" "0.2.6"
+    "@blitzjs/generator" "2.1.3"
+    "@mrleebo/prisma-ast" "0.4.1"
     "@types/global-agent" "2.1.1"
     arg "5.0.1"
     ast-types "0.14.2"
@@ -6284,7 +6277,7 @@ yoga-layout-prebuilt@^1.9.6:
   dependencies:
     "@types/yoga-layout" "1.9.2"
 
-zod@3.20.2:
-  version "3.20.2"
-  resolved "https://registry.yarnpkg.com/zod/-/zod-3.20.2.tgz#068606642c8f51b3333981f91c0a8ab37dfc2807"
-  integrity sha512-1MzNQdAvO+54H+EaK5YpyEy0T+Ejo/7YLHS93G3RnYWh5gaotGHwGeN/ZO687qEDU2y4CdStQYXVHIgrUl5UVQ==
+zod@3.23.8:
+  version "3.23.8"
+  resolved "https://registry.yarnpkg.com/zod/-/zod-3.23.8.tgz#e37b957b5d52079769fb8097099b592f0ef4067d"
+  integrity sha512-XBx9AXhXktjUqnepgTiE5flcKIYWi/rme0Eaj+5Y0lftuGBq+jyRu/md4WnuxqgP1ubdpNCsYEYPxrzVHD8d6g==
