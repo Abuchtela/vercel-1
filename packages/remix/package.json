@@ -34,7 +34,7 @@
     "@types/semver": "7.3.13",
     "@vercel/build-utils": "7.7.0",
     "jest-junit": "16.0.0",
-    "path-to-regexp": "6.2.1",
-    "semver": "7.5.2"
+    "path-to-regexp": "6.3.0",
+    "semver": "6.3.1"
   }
 }
