@@ -4,6 +4,10 @@ When contributing to this repository, please first discuss the change you wish t
 
 Please read our [Code of Conduct](CODE_OF_CONDUCT.md) and follow it in all your interactions with the project.
 
+## Contributor License Agreement
+
+By contributing to this project, you agree to our [Contributor License Agreement (CLA)](../CLA.md). The CLA ensures that the project can safely use and distribute your contributions. When you submit your first contribution, you will be asked to sign the CLA electronically.
+
 ## Local development
 
 This project is configured in a monorepo, where one repository contains multiple npm packages. Dependencies are installed and managed with `pnpm`, not `npm` CLI.
