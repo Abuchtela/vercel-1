@@ -28,11 +28,11 @@ jobs:
         with:
           path-to-signatures: 'signatures/cla.json'
           path-to-document: >
-            https://github.com/Abuchtela/vercel-1/blob/main/CLA.md
+            https://github.com/${{ github.repository }}/blob/main/CLA.md
           branch: 'main'
           allowlist: 'bot*,dependabot*,*[bot]'
-          remote-organization-name: 'Abuchtela'
-          remote-repository-name: 'vercel-1'
+          remote-organization-name: ${{ github.repository_owner }}
+          remote-repository-name: ${{ github.event.repository.name }}
           create-file-commit-message: 'Creating file for storing CLA Signatures'
           signed-commit-message: 'Signed CLA for $contributorName'
           custom-pr-sign-comment: >
