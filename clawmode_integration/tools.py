@@ -8,8 +8,11 @@ Provides 4 tools:
 - get_status: Check economic status and survival metrics
 """
 
-from typing import Dict, Any, Optional
+from typing import Dict, Any, Optional, TYPE_CHECKING
 from datetime import datetime
+
+if TYPE_CHECKING:
+    from clawmode_integration.agent_loop import ClawWorkState
 
 
 def create_clawwork_tools(state: Any) -> list:
