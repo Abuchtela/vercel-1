@@ -1,0 +1,162 @@
+{
+  "Software Developers": {
+    "hourly_wage": 57.50,
+    "description": "Research, design, and develop computer and network software or specialized utility programs"
+  },
+  "Computer Systems Analysts": {
+    "hourly_wage": 49.18,
+    "description": "Analyze science, engineering, business, and other data processing problems"
+  },
+  "Database Administrators": {
+    "hourly_wage": 49.84,
+    "description": "Administer, test, and implement computer databases"
+  },
+  "Network and Computer Systems Administrators": {
+    "hourly_wage": 44.96,
+    "description": "Install, configure, and maintain an organization's computer networks"
+  },
+  "Computer Network Architects": {
+    "hourly_wage": 60.10,
+    "description": "Design and implement computer and information networks"
+  },
+  "Web Developers": {
+    "hourly_wage": 41.06,
+    "description": "Design, create, and modify websites"
+  },
+  "Information Security Analysts": {
+    "hourly_wage": 56.71,
+    "description": "Plan and carry out security measures to protect an organization's computer networks"
+  },
+  "Computer and Information Research Scientists": {
+    "hourly_wage": 69.52,
+    "description": "Conduct research into fundamental computer and information science"
+  },
+  "Market Research Analysts and Marketing Specialists": {
+    "hourly_wage": 38.71,
+    "description": "Research conditions in local, regional, or national markets"
+  },
+  "Technical Writers": {
+    "hourly_wage": 39.93,
+    "description": "Write technical materials, such as equipment manuals and operating procedures"
+  },
+  "Graphic Designers": {
+    "hourly_wage": 29.12,
+    "description": "Design or create graphics to meet specific commercial or promotional needs"
+  },
+  "Accountants and Auditors": {
+    "hourly_wage": 40.73,
+    "description": "Examine, analyze, and interpret accounting records"
+  },
+  "Financial Analysts": {
+    "hourly_wage": 48.07,
+    "description": "Conduct quantitative analyses of information involving investment programs"
+  },
+  "Management Analysts": {
+    "hourly_wage": 49.36,
+    "description": "Conduct organizational studies and evaluations"
+  },
+  "General and Operations Managers": {
+    "hourly_wage": 64.00,
+    "description": "Plan, direct, or coordinate the operations of public or private sector organizations"
+  },
+  "Project Management Specialists": {
+    "hourly_wage": 49.09,
+    "description": "Analyze and coordinate the schedule, timeline, procurement, staffing, and budget of a product"
+  },
+  "Human Resources Specialists": {
+    "hourly_wage": 34.23,
+    "description": "Recruit, screen, interview, or place individuals within an organization"
+  },
+  "Training and Development Specialists": {
+    "hourly_wage": 33.91,
+    "description": "Design or conduct work-related training and development programs"
+  },
+  "Editors": {
+    "hourly_wage": 34.19,
+    "description": "Plan, coordinate, revise, or edit written content"
+  },
+  "Writers and Authors": {
+    "hourly_wage": 35.75,
+    "description": "Originate and prepare written material"
+  },
+  "Public Relations Specialists": {
+    "hourly_wage": 34.56,
+    "description": "Promote or create an intended public image for individuals or organizations"
+  },
+  "Sales Representatives": {
+    "hourly_wage": 33.68,
+    "description": "Sell goods or services to businesses or individuals"
+  },
+  "Customer Service Representatives": {
+    "hourly_wage": 19.98,
+    "description": "Interact with customers to provide information in response to inquiries"
+  },
+  "Mechanical Engineers": {
+    "hourly_wage": 48.24,
+    "description": "Perform engineering duties in planning and designing tools, engines, and machines"
+  },
+  "Electrical Engineers": {
+    "hourly_wage": 53.82,
+    "description": "Research, design, develop, test, or supervise electrical equipment"
+  },
+  "Civil Engineers": {
+    "hourly_wage": 46.48,
+    "description": "Perform engineering duties in planning, designing, and overseeing construction"
+  },
+  "Industrial Engineers": {
+    "hourly_wage": 47.46,
+    "description": "Design, develop, test, and evaluate integrated systems"
+  },
+  "Biomedical Engineers": {
+    "hourly_wage": 49.42,
+    "description": "Apply engineering principles to problems in medicine and health care"
+  },
+  "Data Scientists": {
+    "hourly_wage": 54.68,
+    "description": "Develop and implement methods to transform raw data into meaningful information"
+  },
+  "Statisticians": {
+    "hourly_wage": 50.42,
+    "description": "Develop or apply mathematical or statistical theory and methods"
+  },
+  "Operations Research Analysts": {
+    "hourly_wage": 44.63,
+    "description": "Formulate and apply mathematical modeling and methods to solve problems"
+  },
+  "Multimedia Artists and Animators": {
+    "hourly_wage": 40.92,
+    "description": "Create special effects or animations using film, video, computers, or other media"
+  },
+  "Art Directors": {
+    "hourly_wage": 53.71,
+    "description": "Formulate design concepts and presentation approaches for visual media"
+  },
+  "Instructional Coordinators": {
+    "hourly_wage": 35.98,
+    "description": "Develop instructional material, coordinate educational content, and incorporate technology"
+  },
+  "Lawyers": {
+    "hourly_wage": 74.13,
+    "description": "Represent clients in criminal and civil litigation and other legal proceedings"
+  },
+  "Paralegals and Legal Assistants": {
+    "hourly_wage": 29.46,
+    "description": "Assist lawyers by investigating facts, preparing legal documents, or researching legal precedent"
+  },
+  "Medical and Health Services Managers": {
+    "hourly_wage": 58.60,
+    "description": "Plan, direct, or coordinate medical and health services"
+  },
+  "Social and Community Service Managers": {
+    "hourly_wage": 38.71,
+    "description": "Plan, direct, or coordinate activities of a social service program"
+  },
+  "Business Intelligence Analysts": {
+    "hourly_wage": 50.12,
+    "description": "Produce financial and market intelligence by querying data repositories"
+  },
+  "Content Strategists": {
+    "hourly_wage": 42.50,
+    "description": "Develop and implement strategies for digital content creation and distribution"
+  }
+}
