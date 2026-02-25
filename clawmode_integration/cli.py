@@ -238,7 +238,7 @@ def status():
         rprint(f"Initial Balance: ${clawwork_config.get('initialBalance', 1000):.2f}")
         
         token_pricing = clawwork_config.get("tokenPricing", {})
-        rprint(f"Token Pricing:")
+        rprint("Token Pricing:")
         rprint(f"  - Input: ${token_pricing.get('inputPrice', 2.5)}/M tokens")
         rprint(f"  - Output: ${token_pricing.get('outputPrice', 10.0)}/M tokens")
 
