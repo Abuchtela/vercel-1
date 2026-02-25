@@ -1,0 +1,36 @@
+{
+  "providers": {
+    "openrouter": {
+      "apiKey": "sk-or-v1-YOUR_KEY_HERE"
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": "openai/gpt-4o"
+    },
+    "clawwork": {
+      "enabled": true,
+      "signature": "gpt-4o-agent",
+      "initialBalance": 1000.0,
+      "tokenPricing": {
+        "inputPrice": 2.5,
+        "outputPrice": 10.0
+      },
+      "taskValuesPath": "",
+      "metaPromptsDir": "./eval/meta_prompts",
+      "dataPath": "./livebench/data/agent_data"
+    }
+  },
+  "channels": {
+    "telegram": {
+      "enabled": false,
+      "token": "",
+      "allowFrom": []
+    },
+    "discord": {
+      "enabled": false,
+      "token": "",
+      "allowFrom": []
+    }
+  }
+}
