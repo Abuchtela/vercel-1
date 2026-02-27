@@ -269,8 +269,3 @@ def create_clawwork_tools(state: Any) -> list:
     ]
 
 
-# Aliases for backwards compatibility
-decide_activity_tool = None  # Will be set by create_clawwork_tools
-submit_work_tool = None
-learn_tool = None
-get_status_tool = None
