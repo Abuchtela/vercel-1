@@ -17,22 +17,16 @@ Main components:
 
 __version__ = "0.1.0"
 
-from .agent_loop import ClawWorkAgentLoop
+from .agent_loop import ClawWorkAgentLoop, ClawWorkState, create_agent_loop_with_tracking
 from .task_classifier import TaskClassifier
 from .provider_wrapper import TrackedProvider
-from .tools import (
-    decide_activity_tool,
-    submit_work_tool,
-    learn_tool,
-    get_status_tool,
-)
+from .tools import create_clawwork_tools
 
 __all__ = [
     "ClawWorkAgentLoop",
+    "ClawWorkState",
+    "create_agent_loop_with_tracking",
     "TaskClassifier",
     "TrackedProvider",
-    "decide_activity_tool",
-    "submit_work_tool",
-    "learn_tool",
-    "get_status_tool",
+    "create_clawwork_tools",
 ]
