@@ -7,7 +7,9 @@
     "build": "ng build && scully",
     "test": "ng test",
     "lint": "ng lint",
-    "scully": "scully"
+    "scully": "scully",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "private": true,
   "engines": {
@@ -24,10 +26,11 @@
     "@angular/router": "~9.0.0-rc.7",
     "@scullyio/init": "0.0.9",
     "@scullyio/ng-lib": "latest",
-    "@scullyio/scully": "latest",
+    "@scullyio/scully": "0.0.94",
     "rxjs": "6.5.3",
     "tslib": "1.10.0",
-    "zone.js": "~0.10.2"
+    "zone.js": "~0.10.2",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.900.0-rc.7",
@@ -49,5 +52,6 @@
     "ts-node": "~8.3.0",
     "tslint": "~5.18.0",
     "typescript": "~3.6.4"
-  }
+  },
+  "snyk": true
 }
